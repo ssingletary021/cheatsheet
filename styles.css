@@ -26,3 +26,31 @@ h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
 }
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  vertical-align: middle;
+}
+
+th,
+td {
+  padding: 8px;
+}
+
+thead,
+tfoot {
+  background-color: burlywood;
+  color: white;
+}
+
+tbody {
+  background-color: white;
+}
+
+.code {
+  font-family: monospace;
+  background-color: blanchedalmond;
+  font-size: 15px;
+}
