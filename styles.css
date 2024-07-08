@@ -4,5 +4,6 @@
   background-size: auto;
   height: 800px;
   width: 800px;
-  margin: 100px;
+  margin: auto;
+  position: relative;
 }
