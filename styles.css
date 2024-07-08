@@ -1,0 +1,8 @@
+.container {
+  background-image: url("./assets/images/woven-light.png");
+  background-position: center;
+  background-size: auto;
+  height: 800px;
+  width: 800px;
+  margin: 100px;
+}
