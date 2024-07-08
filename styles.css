@@ -34,9 +34,14 @@ table {
   vertical-align: middle;
 }
 
+thead .bigger {
+  width: 50%;
+}
+
 th,
 td {
   padding: 8px;
+  border: 1px solid burlywood;
 }
 
 thead,
@@ -46,11 +51,15 @@ tfoot {
 }
 
 tbody {
-  background-color: white;
+  background-color: cornsilk;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: blanchedalmond;
 }
 
 .code {
   font-family: monospace;
-  background-color: blanchedalmond;
+  background-color: white;
   font-size: 15px;
 }
